@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\10724908\\Desktop\\Ticket System\\TicketSystem.API\\TicketSystem.API.csproj": {}
+    "C:\\Users\\10724908\\Desktop\\Ticket System\\backend\\TicketSystem.API\\TicketSystem.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\10724908\\Desktop\\Ticket System\\TicketSystem.API\\TicketSystem.API.csproj": {
+    "C:\\Users\\10724908\\Desktop\\Ticket System\\backend\\TicketSystem.API\\TicketSystem.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\10724908\\Desktop\\Ticket System\\TicketSystem.API\\TicketSystem.API.csproj",
+        "projectUniqueName": "C:\\Users\\10724908\\Desktop\\Ticket System\\backend\\TicketSystem.API\\TicketSystem.API.csproj",
         "projectName": "TicketSystem.API",
-        "projectPath": "C:\\Users\\10724908\\Desktop\\Ticket System\\TicketSystem.API\\TicketSystem.API.csproj",
+        "projectPath": "C:\\Users\\10724908\\Desktop\\Ticket System\\backend\\TicketSystem.API\\TicketSystem.API.csproj",
         "packagesPath": "C:\\Users\\10724908\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\10724908\\Desktop\\Ticket System\\TicketSystem.API\\obj\\",
+        "outputPath": "C:\\Users\\10724908\\Desktop\\Ticket System\\backend\\TicketSystem.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\10724908\\AppData\\Roaming\\NuGet\\NuGet.Config"
