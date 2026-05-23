@@ -1,3 +1,4 @@
+namespace TicketSystem.API.Enums;
 public enum UserRole
 {
     Admin = 1,

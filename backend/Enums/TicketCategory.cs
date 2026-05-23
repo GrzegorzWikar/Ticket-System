@@ -1,3 +1,5 @@
+namespace TicketSystem.API.Enums;
+
 public enum TicketCategory
 {
     Hardware = 1,
