@@ -6,3 +6,4 @@ public class ChangeStatusRequest
 {
     public TicketStatus Status {get; set;}
 }
+
