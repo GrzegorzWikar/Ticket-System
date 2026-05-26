@@ -182,4 +182,14 @@ public class TicketService
 
         return MapToResponse(updated);
     }
+    
+    public async Task<bool> DeleteAsync(int id)
+    {
+        var ticket = await _db.Tickets.FindAsync(id);
+        if (ticket == null) return false;
+
+        _db.Tickets.Remove(ticket);
+        await _db.SaveChangesAsync();
+        return true;
+    }
 }
