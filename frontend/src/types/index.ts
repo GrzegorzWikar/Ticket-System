@@ -52,7 +52,7 @@ export interface AuthResponse{
     expiresAt: string;
 }
 
-export interface CreatedTicketRequest{
+export interface CreateTicketRequest{
     title: string;
     description: string,
     priority: number;

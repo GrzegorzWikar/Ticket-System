@@ -1,5 +1,5 @@
 import axiosClient from "./axiosClient";
-import { Ticket, CreateTicketRequest } from "../types";
+import type { Ticket, CreateTicketRequest } from "../types";
 
 interface TicketFilters{
     status?: string;

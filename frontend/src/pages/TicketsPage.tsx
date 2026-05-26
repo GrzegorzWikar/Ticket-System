@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { getTickets } from "../api/ticketsApi";
-import { Ticket } from "../types";
+import type { Ticket } from "../types";
 import { StatusBage, PrirorityBage } from "../components/shared/Badge";
 import { Navbar } from "../components/shared/Navbar";
 import { CreateTicketModal } from "../components/tickets/CreateTicketModal";

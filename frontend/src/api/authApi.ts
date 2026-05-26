@@ -1,5 +1,5 @@
 import axiosClient from "./axiosClient";
-import { AuthResponse } from "../types";
+import type { AuthResponse } from "../types";
 
 export const login = async (email: string, password: string): Promise<AuthResponse> =>{
     const { data } = await axiosClient.post<AuthResponse>("/auth/login", {email, password});

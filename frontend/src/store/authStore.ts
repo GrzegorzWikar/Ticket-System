@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { AuthResponse } from "../types";
+import type { AuthResponse } from "../types/index.ts";
 
 interface AuthState{
     token: string | null;
@@ -8,12 +8,12 @@ interface AuthState{
     logout: () => void;
 }
 
-export const useAuthStore = create<AuthState>((set) => {
-    token: localStorage.getItem("token");
+export const useAuthStore = create<AuthState>()((set) => ({
+    token: localStorage.getItem("token"),
     user: (() => {
         const stored = localStorage.getItem("user");
         return stored ? JSON.parse(stored) : null;
-    })();
+    })(),
 
     setAuth: (data) =>{
         localStorage.setItem("token", data.token);
@@ -23,11 +23,11 @@ export const useAuthStore = create<AuthState>((set) => {
             role: data.role,
             expiresAt: data.expiresAt
         }))
-    };
+    },
 
     logout: () => {
         localStorage.removeItem("token");
         localStorage.removeItem("user");
         set({ token: null, user: null})
     }
-})
+}))
